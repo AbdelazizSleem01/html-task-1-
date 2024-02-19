@@ -4,18 +4,31 @@ body {
 
 .container {
     margin-inline: auto;
-    background-color: rgb(39, 39, 39);
-    /* border: 1px solid rgb(0, 0, 0); */
+    background: url(istockphoto.webp) no-repeat center;
+    background-size: cover;
     border-radius: 10px;
-    padding: 10px;
+    padding: 7px;
     font-size: 18px;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     width: 50%;
     height: 100vh;
+    box-shadow: 0px 0px 10px black;
+    padding-bottom: 20px;
+
+    ol {
+        li {
+            margin: 7px;
+            letter-spacing: 1px;
+        }
+    }
 
     h1 {
         text-align: center;
+    }
+
+    h2 {
+        margin-left: -15px;
     }
 
     span {
@@ -23,10 +36,11 @@ body {
     }
 
     .copy {
+        text-align: center;
         color: rgb(0, 0, 0);
-        font-size: 29px;
+        font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 20px;
-
+        font-weight: 800;
     }
 }
